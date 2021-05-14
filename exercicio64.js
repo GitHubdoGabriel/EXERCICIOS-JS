@@ -4,7 +4,7 @@ maiúsculas de minúsculas.*/
 
 function contaCaractere(caractere, palavra){
     resultado = []
-    for (var letra = 0; letra < palavra.length; letra++) {
+    for (letra = 0; letra < palavra.length; letra++) {
         if(caractere == palavra[letra]){
             resultado.push (palavra[letra])
         }
